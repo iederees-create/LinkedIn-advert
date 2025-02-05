@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Ad Example</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0; /* Light gray background for the feed */
+        }
+        .linkedin-feed {
+            width: 600px; /* Adjust width as needed */
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden; /* Prevents content from overflowing rounded corners */
+        }
+        .feed-post {
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .profile-pic {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-color: #ddd; /* Placeholder for profile picture */
+        }
+        .post-info {
+            flex-grow: 1;
+        }
+        .post-content {
+            margin-bottom: 10px;
+        }
+        .post-image {
+            width: 100%;
+            height: auto;
+            display: block; /* Prevents image from creating extra space */
+            background-color: #eee; /* Placeholder for image */
+        }
+        .ad-container {
+            padding: 20px;
+            background-color: #f8f8f8; /* Slightly darker background for ad */
+            text-align: center; /* Center the button */
+        }
+        .ad-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .ad-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* LinkedIn blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="linkedin-feed">
+        <div class="feed-post">
+            <div class="post-header">
+                <div class="profile-pic"></div>
+                <div class="post-info">
+                    <h3>John Doe</h3>
+                    <p>Senior Associate at Example Law Firm</p>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Excited to share that I've just completed a complex merger deal!  It's been a challenging but rewarding experience. #law #mergersandacquisitions</p>
+            </div>
+            <div class="post-image"></div> </div>
+
+        <div class="ad-container">
+            <img src="your-ad-image.jpg" alt="Ad Image" class="ad-image">
+            <h3>Lead the Legal Profession. Elevate Your Career.</h3>
+            <a href="#" class="ad-button">Learn More</a>
+        </div>
+
+        <div class="feed-post">
+            <div class="post-header">
+                <div class="profile-pic"></div>
+                <div class="post-info">
+                    <h3>Jane Smith</h3>
+                    <p>Law Student at University X</p>
+                </div>
+            </div>
+            <div class="post-content">
+                <p>Looking for internship opportunities in corporate law.  Passionate about learning and contributing to a dynamic team. #lawstudent #internship #corporatelaw</p>
+            </div>
+            <div class="post-image"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
